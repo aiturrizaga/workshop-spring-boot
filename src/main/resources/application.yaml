@@ -1,0 +1,12 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /${spring.application.name}
+spring:
+  application:
+    name: oraclecloud
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    driver-class-name: oracle.jdbc.OracleDriver
