@@ -3,7 +3,8 @@ create table person(
     name varchar2(100) not null,
     lastname varchar2(100) not null,
     address varchar2(250),
-    birthday date
+    birthday date,
+    type varchar2(20)
 );
 
 CREATE TABLE EXAM
